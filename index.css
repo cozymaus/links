@@ -89,7 +89,7 @@ a.button {
    transition: all .3s;
 }
 
-a.button:hover, a.button:active {
+a.button:hover, a:hover, a.button:active, a:active {
    cursor: pointer;
    text-decoration: none!important;
 }
