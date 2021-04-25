@@ -50,24 +50,13 @@ h3 {
   padding-bottom:5px!important;
 }
 
-.navigation h1::before {
+.navigation h1::before, .projects h2::before {
     content: ' ';
     display: block;
     width: 16px;
     height: 16px;
     background-color: var(--accent-color);
-    margin-top: 6px;
-    margin-left: -25px;
-    float: left;
- }
-
- .projects h2::before {
-    content: ' ';
-    display: block;
-    width: 16px;
-    height: 16px;
-    background-color: var(--accent-color);
-    margin-top: 6px;
+    margin-top: 5px;
     margin-left: -25px;
     float: left;
  }
