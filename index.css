@@ -109,6 +109,7 @@ div.name a {
   font-weight: bold!important;
   font-size: 20px!important;
   display:block;
+  padding-bottom:3px;
   transition: all .3s;
 }
 
