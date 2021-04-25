@@ -82,7 +82,7 @@ a.button {
    transition: all .3s;
 }
 
-a.button:visited, a:visited, a.button:hover, a:hover, a.button:active, a:active {
+a.button:visited, a:visited, h3 a:visited, a.button:hover, a:hover, h3 a:hover, a.button:active, a:active, h3 a:active {
    cursor: pointer;
    text-decoration: none!important;
 }
