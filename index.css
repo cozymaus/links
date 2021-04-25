@@ -369,6 +369,10 @@ div.contact {
     padding:20px 40px!important;
     height: 150px;
   }
+   
+   .business p span.greeting {
+   font-size:80px!important;
+   }
 
   .card, .behindcard, .business, .businesspiece, .projects, div.project,
   .projects p.intro, div.project p, div.projectDetails, div.projectImage {
