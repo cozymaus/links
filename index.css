@@ -48,6 +48,11 @@ h3, h3 a {
   font-weight: bold!important;
   font-size: 20px!important;
   padding-bottom:5px!important;
+  transition: all .3s;
+}
+
+h3 a:hover {
+color: var(--text-color);
 }
 
 .navigation h1::before, .projects h2::before {
