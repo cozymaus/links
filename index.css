@@ -51,8 +51,20 @@ h3, h3 a {
   transition: all .3s;
 }
 
-h3 a:visited, h3 a:hover, h3 a:active {
+h3 a:visited, h3 a:active {
 color: var(--text-color);
+}
+
+h3 a:hover {
+color: var(--white-color);
+}
+
+h3 a:hover div.name {
+background-color: var(--accent-color);
+}
+
+h3 a:hover div.name p {
+background-color: var(--white-color);
 }
 
 .navigation h1::before, .projects h2::before {
