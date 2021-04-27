@@ -110,6 +110,7 @@ div.name a {
   font-size: 20px!important;
   display:block;
   padding-bottom:3px;
+  line-height:140%!important;
   transition: all .3s;
 }
 
