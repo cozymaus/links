@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Portfolio Websites
-projectDate: 2016 – April 2021
+projectDate: December 2016 – April 2021
 role: Web Development and Design
 img: linkspage.jpg
 link: https://github.com/lizberberena/lizberberena
