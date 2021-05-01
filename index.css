@@ -361,6 +361,10 @@ div.contact {
 
 @media (max-width: 600px) {
    
+   a.toggle-theme {
+   display:none!important;
+   }
+   
    .pages a {
    width:50%;
       float:left;
