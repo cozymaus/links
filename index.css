@@ -377,7 +377,7 @@ div.contact {
 
   .navigation {
     padding:20px 40px!important;
-    height: auto;
+    height: auto!important;
     position:absolute!important;
   }
    
