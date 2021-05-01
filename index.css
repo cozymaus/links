@@ -377,8 +377,8 @@ div.contact {
 
   .navigation {
     padding:20px 40px!important;
-    height: 150px;
-    position:relative!important;
+    height: auto;
+    position:absolute!important;
   }
    
    .business p span.greeting {
