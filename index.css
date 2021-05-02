@@ -1,5 +1,3 @@
-
-
 html {
 	--text-color: #000000;
 	--accent-color: #4C785D;
@@ -470,11 +468,13 @@ div.mobile-navigation {
 
 @media (prefers-color-scheme: dark) {
 	html {
-		--text-color: #000000;
-		--accent-color: #4C785D;
-		--card-color: #F4ECE6;
-		--white-color: #FFFFFF;
-		--bg-color: #E6DACE;
+		--text-color: #fff6db;
+		--accent-color: #911491;
+		--card-color: black;
+		--white-color: #000031;
+		--bg-color: #1a1646;
 	}
 }
+
+
 
