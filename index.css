@@ -444,7 +444,7 @@ div.contact {
 	div.project p,
 	div.projectDetails,
 	div.projectImage {
-		width: 100%;
+		width: 100%!important;
 	}
 	div.project {
 		padding: 0px!important;
