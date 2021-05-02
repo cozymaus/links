@@ -471,7 +471,7 @@ div.contact {
 	}
 	.business,
 	.projects {
-		padding: 100px 20px;
+		padding: 100px 20px!important;
 	}
 	div.project {
 		height: auto;
