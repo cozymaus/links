@@ -459,7 +459,7 @@ html[data-theme="dark"] {
 	--card-color: #000000;
 	--white-color: #000031;
 	--bg-color: #1a1646;
-	--shadows: rgba(1, 0, 19, 0.23);
+	--shadows: rgba(1, 0, 19, 0.47);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -469,7 +469,7 @@ html[data-theme="dark"] {
 		--card-color: #000000;
 		--white-color: #000031;
 		--bg-color: #1a1646;
-		--shadows: rgba(1, 0, 19, 0.23);
+		--shadows: rgba(1, 0, 19, 0.47);
 	}
 	html[data-theme="light"] { 
 		--text-color: #000000;
