@@ -198,10 +198,6 @@ color: var(--text-color)!important;
   margin-left:-30px;
 }
 
-.canvas {
-
-}
-
 .navigation {
    padding: 50px 50px 50px 80px;
    background: var(--white-color);
@@ -224,12 +220,12 @@ color: var(--text-color)!important;
    transition: all .3s;
 }
 
-.pages a.active {
-  color:var(--accent-color)!important;
+.mobile-navigation a {
+color:var(--text-color);
 }
 
-.pages a:hover, .pages a:active {
-   color:var(--accent-color);
+.pages a:hover, .mobile-navigation a:hover, .pages a:active, .mobile-navigation a:active {
+   color:var(--accent-color)!important;
    text-decoration: none;
 }
 
