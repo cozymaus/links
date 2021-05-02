@@ -381,12 +381,17 @@ div.contact {
 	div.business {
 		padding-left: 80px;
 	}
+	div.businesspiece {
+				width:300px;
+	}
 	.card {
 		margin-left: 0%;
+		width:350px;
 	}
 }
 
 @media (max-width: 800px) {
+
 	div.project {
 		padding: 0px!important;
 	}
