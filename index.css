@@ -237,6 +237,7 @@ div.name a:active {
 	line-height: 35px!important;
 	font-size: 17px!important;
 	padding-right: 20px;
+	text-align:center;
 	transition: all .3s;
 }
 
