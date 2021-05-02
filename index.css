@@ -380,7 +380,7 @@ div.contact {
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 630px) {
 	.card span {
 		font-size: 15px!important;
 	}
