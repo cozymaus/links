@@ -228,18 +228,18 @@ div.name a:active {
 	float: right;
 }
 
-.pages a, .pages a:not([href]):not([tabindex]) {
+.pages a, .pages #theme-toggle {
 	text-transform: uppercase;
-	color: var(--text-color);
-	line-height: 35px;
+	color: var(--text-color)!important;
+	line-height: 35px!important;
 	font-size: 17px!important;
 	padding-right: 20px;
 	transition: all .3s;
 }
 
-.mobile-navigation a, .mobile-navigation a:not([href]):not([tabindex])  {
+.mobile-navigation #theme-toggle {
 	transition: all .3s;
-	color: var(--text-color);
+	color: var(--text-color)!important;
 }
 
 .pages a:hover,
