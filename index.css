@@ -468,8 +468,8 @@ div.mobile-navigation {
 
 @media (prefers-color-scheme: dark) {
 	html {
-		--text-color: #fff6db;
-		--accent-color: #911491;
+		--text-color: lavender;
+		--accent-color: violet;
 		--card-color: #000000;
 		--white-color: #000031;
 		--bg-color: #1a1646;
