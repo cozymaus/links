@@ -1,321 +1,353 @@
+
+
 html {
-   --text-color: #000000;
-   --accent-color: #4C785D;
-   --card-color: #F4ECE6;
-   --white-color: #FFFFFF;
-   --bg-color: #E6DACE;
+	--text-color: #000000;
+	--accent-color: #4C785D;
+	--card-color: #F4ECE6;
+	--white-color: #FFFFFF;
+	--bg-color: #E6DACE;
 }
 
 ::-moz-selection {
-   /* Code for Firefox */
-   color: var(--accent-color);
-   background: var(--card-color);
+	/* Code for Firefox */
+	color: var(--accent-color);
+	background: var(--card-color);
 }
 
 ::selection {
-   color: var(--accent-color);
-   background: var(--card-color);
+	color: var(--accent-color);
+	background: var(--card-color);
 }
 
 body {
-background-color: var(--bg-color);
+	background-color: var(--bg-color);
 }
 
-h1, h2, h3, h4, h5, h6, p, li, span, a {
-      font-family: sans-serif!important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+span,
+a {
+	font-family: sans-serif!important;
 }
 
-h1, h2, h3, h4, h5, h6, p, li, span {
-   color: var(--text-color);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+span {
+	color: var(--text-color);
 }
 
 h1 {
-   font-size:25px!important;
-   font-weight: bold!important;
+	font-size: 25px!important;
+	font-weight: bold!important;
 }
 
 h2 {
-   font-size: 35px!important;
-   font-weight: bold!important;
-   text-align: center;
-   width: 100px;
-   margin-left: auto!important;
-   margin-right: auto!important;
+	font-size: 35px!important;
+	font-weight: bold!important;
+	text-align: center;
+	width: 100px;
+	margin-left: auto!important;
+	margin-right: auto!important;
 }
 
-.navigation h1::before, .projects h2::before {
-    content: ' ';
-    display: block;
-    width: 16px;
-    height: 16px;
-    background-color: var(--accent-color);
-    margin-top: 5px;
-    margin-left: -25px;
-    float: left;
- }
+.navigation h1::before,
+.projects h2::before {
+	content: ' ';
+	display: block;
+	width: 16px;
+	height: 16px;
+	background-color: var(--accent-color);
+	margin-top: 5px;
+	margin-left: -25px;
+	float: left;
+}
 
 p {
-   font-size:17px!important;
-   line-height: 140%!important;
+	font-size: 17px!important;
+	line-height: 140%!important;
 }
 
 span {
-   font-size:17px!important;
+	font-size: 17px!important;
 }
 
 a.button {
-   display: inline-block;
-   padding:10px;
-   text-transform: uppercase;
-   border-radius:25px;
-   text-align: center;
-   width:120px;
-   font-size: 13px;
-   font-weight: bold;
-   transition: all .3s;
+	display: inline-block;
+	padding: 10px;
+	text-transform: uppercase;
+	border-radius: 25px;
+	text-align: center;
+	width: 120px;
+	font-size: 13px;
+	font-weight: bold;
+	transition: all .3s;
 }
 
-a.button:hover, a:hover, a.button:active, a:active, a.button:focus, a:focus {
-   cursor: pointer;
-   text-decoration: none!important;
+a.button:hover,
+a:hover,
+a.button:active,
+a:active,
+a.button:focus,
+a:focus {
+	cursor: pointer;
+	text-decoration: none!important;
 }
 
 a.button.One {
-   background-color:var(--accent-color);
-   border: 2px solid var(--accent-color);
-   color:var(--white-color);
+	background-color: var(--accent-color);
+	border: 2px solid var(--accent-color);
+	color: var(--white-color);
 }
 
 a.button.One:hover {
-   background-color:var(--white-color);
-   border: 2px solid var(--accent-color);
-   color:var(--text-color);
+	background-color: var(--white-color);
+	border: 2px solid var(--accent-color);
+	color: var(--text-color);
 }
 
 a.button.Two {
-   background-color: var(--white-color);
-   border: 1px solid var(--text-color);
-   color:var(--text-color);
+	background-color: var(--white-color);
+	border: 1px solid var(--text-color);
+	color: var(--text-color);
 }
 
 a.button.Two:hover {
-   background-color: var(--accent-color);
-   border: 1px solid var(--accent-color);
-   color:var(--white-color);
+	background-color: var(--accent-color);
+	border: 1px solid var(--accent-color);
+	color: var(--white-color);
 }
 
 div.name a {
-  color:var(--accent-color)!important;
-  font-weight: bold!important;
-  font-size: 20px!important;
-  display:block;
-  padding-bottom:3px;
-  line-height:140%!important;
-  transition: all .3s;
+	color: var(--accent-color)!important;
+	font-weight: bold!important;
+	font-size: 20px!important;
+	display: block;
+	padding-bottom: 3px;
+	line-height: 140%!important;
+	transition: all .3s;
 }
 
-div.name a:hover, div.name a:active {
-color: var(--text-color)!important;
+div.name a:hover,
+div.name a:active {
+	color: var(--text-color)!important;
 }
 
 .card {
-   background-color: var(--card-color);
-   box-shadow: -11.31px 11.31px 17px 0px rgba(138,131,124,0.23);
-   width:375px;
-   padding:50px 0 0 0;
-   border:none;
-   border-radius:0px;
-   float:left;
-   margin-left: 66%; /*66%*/
-   margin-top:285px;
+	background-color: var(--card-color);
+	box-shadow: -11.31px 11.31px 17px 0px rgba(138, 131, 124, 0.23);
+	width: 375px;
+	padding: 50px 0 0 0;
+	border: none;
+	border-radius: 0px;
+	float: left;
+	margin-left: 66%;
+	/*66%*/
+	margin-top: 285px;
 }
 
-.card h1, .card span {
-   margin-left:auto;
-   margin-right: auto;
+.card h1,
+.card span {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .card h1 {
-   font-weight: bold;
-   width: 200px;
-   text-align:center;
+	font-weight: bold;
+	width: 200px;
+	text-align: center;
 }
 
 .card img {
-   width:200px;
-   height:auto;
-   border-radius: 100%;
-   margin-left:auto;
-   margin-right: auto;
-   margin-bottom:30px;
+	width: 200px;
+	height: auto;
+	border-radius: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
 }
 
 .card .divider {
-   height:2px;
-   width:50px;
-   margin:30px 0;
-   margin-left: auto;
-   margin-right: auto;
-   background-color:var(--accent-color);
+	height: 2px;
+	width: 50px;
+	margin: 30px 0;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: var(--accent-color);
 }
 
 .card span {
-  text-align: center;
-  line-height:135%;
-   letter-spacing: 0.25em;
-   text-transform: uppercase;
-   display:block;
+	text-align: center;
+	line-height: 135%;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+	display: block;
 }
 
 .card .socials {
-   margin-left:auto;
-   margin-right: auto;
-   background-color: var(--white-color);
-   padding:15px 10px;
-   width:100%;
-   margin-top: 30px;
-   text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: var(--white-color);
+	padding: 15px 10px;
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
 }
 
 .card .socials i {
-   text-align: center;
-   color:var(--text-color);
-   font-size:20px;
-   padding:0px 15px;
-   transition: all .3s;
+	text-align: center;
+	color: var(--text-color);
+	font-size: 20px;
+	padding: 0px 15px;
+	transition: all .3s;
 }
 
-
-.card .socials i:hover, .card .socials i:active {
-   color:var(--accent-color);
+.card .socials i:hover,
+.card .socials i:active {
+	color: var(--accent-color);
 }
 
 .project .name {
-  margin-bottom:20px;
-  border-left:var(--accent-color) 10px solid;
-  padding-left:20px;
-  margin-left:-30px;
+	margin-bottom: 20px;
+	border-left: var(--accent-color) 10px solid;
+	padding-left: 20px;
+	margin-left: -30px;
 }
 
 .navigation {
-   padding: 50px 50px 50px 80px;
-   background: var(--white-color);
-   width: 100%;
-   z-index:10;
-   position: fixed;
-   top:0;
+	padding: 50px 50px 50px 80px;
+	background: var(--white-color);
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+	top: 0;
 }
 
 .pages {
-   float:right;
+	float: right;
 }
 
 .pages a {
-   text-transform: uppercase;
-   color:var(--text-color);
-   line-height: 35px;
-   font-size:17px!important;
-   padding-right:20px;
-   transition: all .3s;
+	text-transform: uppercase;
+	color: var(--text-color);
+	line-height: 35px;
+	font-size: 17px!important;
+	padding-right: 20px;
+	transition: all .3s;
 }
 
 .mobile-navigation a {
-transition: all .3s;
-color:var(--text-color);
+	transition: all .3s;
+	color: var(--text-color);
 }
 
-.pages a:hover, .mobile-navigation a:hover, .pages a:active, .mobile-navigation a:active {
-   color:var(--accent-color)!important;
-   text-decoration: none;
+.pages a:hover,
+.mobile-navigation a:hover,
+.pages a:active,
+.mobile-navigation a:active {
+	color: var(--accent-color)!important;
+	text-decoration: none;
 }
 
 .logo h1 {
-   font-weight: bold;
+	font-weight: bold;
 }
 
 .logo span {
-   text-transform: uppercase;
-   display: inline;
-   font-weight: normal;
+	text-transform: uppercase;
+	display: inline;
+	font-weight: normal;
 }
 
 .logo {
-   float:left;
+	float: left;
 }
 
 .behindcard {
-   width:40%;
-   float:left;
+	width: 40%;
+	float: left;
 }
 
 .business {
-   background-color: var(--white-color);
-   float:left;
-   width:60%;
-   padding:100px 200px 100px 150px;
+	background-color: var(--white-color);
+	float: left;
+	width: 60%;
+	padding: 100px 200px 100px 150px;
 }
 
 .business p span.greeting {
-   display: block;
-   font-weight: bold;
-   font-size: 100px!important;
-   padding-bottom:50px!important;
+	display: block;
+	font-weight: bold;
+	font-size: 100px!important;
+	padding-bottom: 50px!important;
 }
 
 .business p span.intro {
-   display: block;
-   font-size: 25px!important;
+	display: block;
+	font-size: 25px!important;
 }
 
 div.introbuttons {
-  margin:40px 0;
+	margin: 40px 0;
 }
 
 .businesspiece {
-   width:369px;
-   margin-top:285px;
+	width: 369px;
+	margin-top: 285px;
 }
 
 .projects {
-   padding:190px 20px 100px 20px;
-   clear:both;
+	padding: 190px 20px 100px 20px;
+	clear: both;
 }
 
 .projects p.intro {
-   width: 668px;
-   padding-top:50px;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
+	width: 668px;
+	padding-top: 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .about {
-   width:100%;
+	width: 100%;
 }
 
 div.project {
-  margin-top:50px;
-  width:750px;
-  height: 404px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: -11.31px 11.31px 17px 0px rgba(138,131,124,0.23);
+	margin-top: 50px;
+	width: 750px;
+	height: 404px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: -11.31px 11.31px 17px 0px rgba(138, 131, 124, 0.23);
 }
 
 div.projectDetails {
-  background-color: var(--white-color);
-  height: 404px;
-  padding:50px 30px;
-  width:50%;
-  float:left;
+	background-color: var(--white-color);
+	height: 404px;
+	padding: 50px 30px;
+	width: 50%;
+	float: left;
 }
 
 div.projectImage {
-  height:404px;
-  width:50%;
-  float:left;
-  background-position: center;
+	height: 404px;
+	width: 50%;
+	float: left;
+	background-position: center;
 }
+
 
 /*#about {
 height:135px;
@@ -324,139 +356,125 @@ background-color:var(--white-color);
 }*/
 
 .canvas {
-background:var(--bg-color);
-
+	background: var(--bg-color);
 }
 
 div.contact {
-  width: 100%!important;
-  padding:50px 80px;
-  width:135px;
-  background-color: var(--white-color);
+	width: 100%!important;
+	padding: 50px 80px;
+	width: 135px;
+	background-color: var(--white-color);
 }
 
 div.mobile-navigation {
-   background-color:var(--bg-color);
-   width:100%;
-   text-align:center;
-   /*margin-top:160px;*/
-   padding:10px;
-   display:none;
+	background-color: var(--bg-color);
+	width: 100%;
+	text-align: center;
+	/*margin-top:160px;*/
+	padding: 10px;
+	display: none;
 }
 
-
-
 @media (max-width: 1700px) {
-  .card {
-    margin-left: 44%;
-  }
+	.card {
+		margin-left: 44%;
+	}
 }
 
 @media (max-width: 1160px) {
-  .card {
-    margin-left:22%;
-  }
+	.card {
+		margin-left: 22%;
+	}
 }
 
 @media (max-width: 860px) {
-  .card {
-    margin-left:0%;
-  }
+	.card {
+		margin-left: 0%;
+	}
 }
 
 @media (max-width: 600px) {
-   
-   .card span {
-   font-size:15px!important;
-   }
-   
-   div.mobile-navigation {
-      display:block;
-   }
-   
-   a.toggle-theme {
-   display:none!important;
-   }
-   
-   .pages a {
-   width:50%;
-      float:left;
-      font-size:15px!important;
-   }
-  
-   .navigation h1 {
-   padding-bottom:10px!important;
-   }
-   
-   .navigation h1 span {
-   font-size:15px!important;
-   }
-
-  .navigation {
-    padding:20px 40px!important;
-    height: auto!important;
-    position:relative;
-     display:inline flow-root list-item;
-  }
-   
-   .business p span.greeting {
-   font-size:80px!important;
-   }
-
-  .card, .behindcard, .business, .businesspiece, .projects, div.project,
-  .projects p.intro, div.project p, div.projectDetails, div.projectImage {
-    width: 100%;
-  }
-
-  div.project {
-    padding:0px!important;
-
-  }
-
-  div.projectDetails {
-    padding: 30px;
-    height: auto!important;
-  }
-
-  div.project, div.projectImage {
-    height:auto;
-  }
-
-  div.projectImage {
-    height: 200px;
-  }
-
-  .card {
-    margin-top:0px;
-  }
-
-  .businesspiece {
-    margin-top:0px;
-
-  }
-
-  .business, .projects {
-    padding:100px 20px;
-  }
-
-  div.project {
-    height:auto;
-    float:left;
-  }
-
-  a.button.Two {
-    margin-top:10px;
-  }
+	.card span {
+		font-size: 15px!important;
+	}
+	div.mobile-navigation {
+		display: block;
+	}
+	a.toggle-theme {
+		display: none!important;
+	}
+	.pages a {
+		width: 50%;
+		float: left;
+		font-size: 15px!important;
+	}
+	.navigation h1 {
+		padding-bottom: 10px!important;
+	}
+	.navigation h1 span {
+		font-size: 15px!important;
+	}
+	.navigation {
+		padding: 20px 40px!important;
+		height: auto!important;
+		position: relative;
+		display: inline flow-root list-item;
+	}
+	.business p span.greeting {
+		font-size: 80px!important;
+	}
+	.card,
+	.behindcard,
+	.business,
+	.businesspiece,
+	.projects,
+	div.project,
+	.projects p.intro,
+	div.project p,
+	div.projectDetails,
+	div.projectImage {
+		width: 100%;
+	}
+	div.project {
+		padding: 0px!important;
+	}
+	div.projectDetails {
+		padding: 30px;
+		height: auto!important;
+	}
+	div.project,
+	div.projectImage {
+		height: auto;
+	}
+	div.projectImage {
+		height: 200px;
+	}
+	.card {
+		margin-top: 0px;
+	}
+	.businesspiece {
+		margin-top: 0px;
+	}
+	.business,
+	.projects {
+		padding: 100px 20px;
+	}
+	div.project {
+		height: auto;
+		float: left;
+	}
+	a.button.Two {
+		margin-top: 10px;
+	}
 }
 
-
 @media (prefers-color-scheme: dark) {
-   html {
-   --text-color: #000000;
-   --accent-color: #4C785D;
-   --card-color: #F4ECE6;
-   --white-color: #FFFFFF;
-   --bg-color: #E6DACE;
-   }
+	html {
+		--text-color: #000000;
+		--accent-color: #4C785D;
+		--card-color: #F4ECE6;
+		--white-color: #FFFFFF;
+		--bg-color: #E6DACE;
+	}
 }
 
