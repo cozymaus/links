@@ -366,6 +366,11 @@ div.mobile-navigation {
 }
 
 @media (max-width: 600px) {
+   
+   .card span {
+   font-size:15px!important;
+   }
+   
    div.mobile-navigation {
       display:block;
    }
