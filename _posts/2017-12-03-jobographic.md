@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JoboGraphic Web Application
-projectDate: Dec 2017
+projectDate: DEC 2017
 category: HTML Website
 role: Web Development
 img: jobographic2.jpg
