@@ -384,7 +384,7 @@ div.contact {
 	}
 }
 
-@media (max-width: 1055px) {
+@media (max-width: 1083px) {
 	.navigation h1 {
 		margin-bottom: 10px!important;
 	}
@@ -430,7 +430,7 @@ div.contact {
 	}
 }
 
-@media (max-width: 630px) {
+@media (max-width: 650px) {
 	.card span {
 		font-size: 15px!important;
 	}
