@@ -409,6 +409,15 @@ div.contact {
 }
 
 @media (max-width: 800px) {
+	
+	a.desktop-about-link {
+	display:none!important;
+	}
+	
+	a.mobile-about-link {
+	display:inline-block!important;
+	}
+	
 	div.contact {
 	margin-top:50px;
 	display:block;
