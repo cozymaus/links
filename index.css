@@ -145,14 +145,17 @@ div.name a {
 }
 
 h1 a {
-	color: var(--accent-color)!important;
+	color: var(--text-color)!important;
 	transition: all .3s;
 }
 
-div.name a:hover,
 h1 a:hover,
-div.name a:active,
 h1 a:active {
+	color: var(--accent-color)!important;
+}
+
+div.name a:hover,
+div.name a:active {
 	color: var(--text-color)!important;
 }
 
