@@ -374,6 +374,7 @@ div.contact {
 	background-color: var(--white-color);
 	text-align:center;
 	float:left;
+	display:none;
 }
 
 @media (max-width: 1700px) {
@@ -410,6 +411,7 @@ div.contact {
 @media (max-width: 800px) {
 	div.contact {
 	margin-top:50px;
+	display:block;
 	}
 	
 	.card {
@@ -439,6 +441,7 @@ div.contact {
 }
 
 @media (max-width: 650px) {
+
 	.card span {
 		font-size: 15px!important;
 	}
