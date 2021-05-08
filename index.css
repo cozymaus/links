@@ -406,7 +406,7 @@ div.contact {
 }
 
 .nav-toggle, .nav-mobile-header {
-	display: none;
+	display: none!important;
 }
 
 @media (max-width: 1700px) {
@@ -487,6 +487,10 @@ div.contact {
 		width: 50%;
 		float: left;
 		font-size: 15px!important;
+	}
+	
+	.nav-toggle {
+	display:block!important;
 	}
 	.pages {
 		position: fixed;
