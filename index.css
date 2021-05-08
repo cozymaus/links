@@ -395,11 +395,14 @@ div.contact {
 }
 
 .nav-toggle {
-	color: var(--text-color)!important;
-	cursor: pointer!important;
-	font-size:17px!important;
-	float:right!important;
-	transition: all .3s;
+color: var(--text-color) !important;
+cursor: pointer !important;
+font-size: 25px !important;
+float: right !important;
+transition: all .3s;
+top: 20px;
+position: absolute;
+right: 30px;
 }
 
 .nav-toggle:hover,
@@ -586,6 +589,12 @@ div.contact {
 	a.button.Two {
 		margin-top: 10px;
 	}
+}
+
+@media (max-width: 395px) {
+.nav-toggle {
+top: 30px;
+}
 }
 
 @media (max-width: 364px) {
