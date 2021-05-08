@@ -592,9 +592,14 @@ right: 30px;
 }
 
 @media (max-width: 395px) {
+
 .nav-toggle {
 top: 30px;
 }
+	
+#toggle-close.nav-toggle {
+	top:20px!important;
+	}
 }
 
 @media (max-width: 364px) {
