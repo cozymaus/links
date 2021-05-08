@@ -592,7 +592,9 @@ right: 30px;
 }
 
 @media (max-width: 395px) {
-
+	span.slash {
+	display:none;
+	}
 .nav-toggle {
 top: 30px;
 }
