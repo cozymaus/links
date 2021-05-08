@@ -409,6 +409,7 @@ div.contact {
 @media (max-width: 1083px) {
 	.navigation h1 {
 		margin-left: -30px!important;
+		margin-bottom: 10px!important;
 	}
 }
 
@@ -502,6 +503,9 @@ div.contact {
 	}
 	.navigation h1 span {
 		font-size: 15px!important;
+	}
+	.navigation h1 {
+		margin-bottom: 0px!important;
 	}
 	.navigation {
 		padding: 20px 40px!important;
