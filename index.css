@@ -394,6 +394,17 @@ div.contact {
 	display: none;
 }
 
+.nav-toggle {
+	color: var(--text-color);
+	cursor: pointer;
+	transition: all .3s;
+}
+
+.nav-toggle:hover,
+.nav-toggle:active {
+	color: var(--accent-color);
+}
+
 .nav-toggle, .nav-mobile-header {
 	display: none;
 }
