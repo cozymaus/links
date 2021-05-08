@@ -13,6 +13,7 @@ timezone:           America/New_York # https://en.wikipedia.org/wiki/List_of_tz_
 language:           en-US
 favicon:            https://lizberberena.com/img/liz-pfp.jpg
 logo:               https://lizberberena.com/img/liz-pfp.jpg
+ss:                 https://lizberberena.com/img/portfolio-may-2021-light-preview.png
 
 # Pagination Settings
 paginate_path: "/pg-:num/"
