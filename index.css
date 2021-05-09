@@ -387,7 +387,6 @@ background-color:var(--white-color);
 
 div.contact {
 	width: 100% !important;
-	padding: 20px 40px;
 	background-color: var(--white-color);
 	text-align: center;
 	float: left;
@@ -539,7 +538,6 @@ div.contact {
 	.navigation {
 		padding: 20px 40px!important;
 		height: auto!important;
-		position: relative;
 		display: inline flow-root list-item;
 	}
 	.business p span.greeting {
