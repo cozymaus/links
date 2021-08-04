@@ -498,7 +498,7 @@ div.contact {
 @media (max-width: 650px) {
 	
 	.mobile {
-	display:block;
+	display:block!important;
 	}
 	
 	body {
